@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "genpark-biquad-iir-filter-dsp-skill"
+version = "1.0.0"
+description = "Second-order Biquad Infinite Impulse Response (IIR) digital audio filter with frequency response Bode plotting."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+    {name = "AlphaPark Team", email = "engineering@alphapark.ai"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Multimedia :: Sound/Audio :: Analysis",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
+
+[project.urls]
+Homepage = "https://github.com/alphaparkinc/genpark-biquad-iir-filter-dsp-skill"
+Repository = "https://github.com/alphaparkinc/genpark-biquad-iir-filter-dsp-skill.git"
+Issues = "https://github.com/alphaparkinc/genpark-biquad-iir-filter-dsp-skill/issues"
