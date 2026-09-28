@@ -1,0 +1,9 @@
+{
+  "schema_version": "v1",
+  "name": "genpark-biquad-iir-filter-dsp-skill",
+  "version": "1.0.0",
+  "description": "Second-order Biquad Infinite Impulse Response (IIR) digital audio filter with frequency response Bode plotting.",
+  "entrypoint": "client.py",
+  "mcp_server": "mcp_server.py",
+  "category": "Service"
+}
